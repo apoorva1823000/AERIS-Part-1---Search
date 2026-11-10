@@ -1,0 +1,13 @@
+Map,Heuristic,Route,Path cost,Expanded,Runtime ms,Admissible,Consistent
+sample_map_1,H1 Zero,Depot -> B -> D -> Hospital,6.4,6,0.03503200014165486,True,True
+sample_map_1,H2 Geometric,Depot -> B -> D -> Hospital,6.4,5,0.10210000027655042,True,True
+sample_map_1,H3 Relaxed,Depot -> B -> D -> Hospital,6.4,4,0.012649000382225495,True,True
+sample_map_1,"H4 max(H2,H3)",Depot -> B -> D -> Hospital,6.4,4,0.0102349999906437,True,True
+sample_map_2,H1 Zero,Depot -> B -> D -> E -> Relief Camp,7.9,7,0.03671500007840223,True,True
+sample_map_2,H2 Geometric,Depot -> B -> D -> E -> Relief Camp,7.9,7,0.040069000078801764,True,True
+sample_map_2,H3 Relaxed,Depot -> B -> D -> E -> Relief Camp,7.9,5,0.011767000160034513,True,True
+sample_map_2,"H4 max(H2,H3)",Depot -> B -> D -> E -> Relief Camp,7.9,5,0.011706999885063851,True,True
+sample_map_3,H1 Zero,Depot -> A -> D -> Village,6.699999999999999,8,0.0190780001503299,True,True
+sample_map_3,H2 Geometric,Depot -> A -> D -> Village,6.699999999999999,7,0.015703000372013776,True,True
+sample_map_3,H3 Relaxed,Depot -> A -> D -> Village,6.699999999999999,6,0.011877999895659741,True,True
+sample_map_3,"H4 max(H2,H3)",Depot -> A -> D -> Village,6.699999999999999,6,0.011325999821565347,True,True
