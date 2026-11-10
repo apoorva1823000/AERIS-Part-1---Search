@@ -1,0 +1,104 @@
+{
+  "nodes": [
+    {
+      "id": "Depot",
+      "x": 0,
+      "y": 2,
+      "type": "Medical depot"
+    },
+    {
+      "id": "A",
+      "x": 1.7,
+      "y": 3.2,
+      "type": "Road node"
+    },
+    {
+      "id": "B",
+      "x": 1.8,
+      "y": 0.8,
+      "type": "Road node"
+    },
+    {
+      "id": "C",
+      "x": 3.6,
+      "y": 3.0,
+      "type": "Road node"
+    },
+    {
+      "id": "D",
+      "x": 3.5,
+      "y": 1.0,
+      "type": "Road node"
+    },
+    {
+      "id": "E",
+      "x": 5.0,
+      "y": 2.0,
+      "type": "Road node"
+    },
+    {
+      "id": "Relief Camp",
+      "x": 6.5,
+      "y": 2.0,
+      "type": "Relief camp"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Depot",
+      "target": "A",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "Depot",
+      "target": "B",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "cost": 2.7,
+      "open": false
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "cost": 2.3,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "cost": 3.0,
+      "open": true
+    },
+    {
+      "source": "E",
+      "target": "Relief Camp",
+      "cost": 1.6,
+      "open": true
+    }
+  ],
+  "requests": [
+    {
+      "destination": "Relief Camp",
+      "supply": "Water pack",
+      "quantity": 8,
+      "priority": 0.7
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+id,x,y,type
+Depot,0,2,Medical depot
+A,2,3,Road node
+B,2,1,Road node
+C,4,3,Road node
+D,4,1,Road node
+Hospital,6,2,Hospital

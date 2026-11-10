@@ -1,0 +1,9 @@
+source,target,cost,open
+Depot,A,2.4,True
+Depot,B,2.1,True
+A,C,2.0,True
+B,D,2.2,True
+C,Hospital,2.7,True
+D,Hospital,2.1,True
+A,D,3.4,True
+B,C,3.6,True

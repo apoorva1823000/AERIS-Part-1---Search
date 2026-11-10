@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "Depot",
+      "x": 0,
+      "y": 2,
+      "type": "Medical depot"
+    },
+    {
+      "id": "A",
+      "x": 1.5,
+      "y": 3.5,
+      "type": "Road node"
+    },
+    {
+      "id": "B",
+      "x": 1.5,
+      "y": 2.0,
+      "type": "Road node"
+    },
+    {
+      "id": "C",
+      "x": 1.5,
+      "y": 0.5,
+      "type": "Road node"
+    },
+    {
+      "id": "D",
+      "x": 3.4,
+      "y": 3.4,
+      "type": "Road node"
+    },
+    {
+      "id": "E",
+      "x": 3.4,
+      "y": 2.0,
+      "type": "Road node"
+    },
+    {
+      "id": "F",
+      "x": 3.4,
+      "y": 0.6,
+      "type": "Road node"
+    },
+    {
+      "id": "Village",
+      "x": 5.4,
+      "y": 2.0,
+      "type": "Village"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Depot",
+      "target": "A",
+      "cost": 2.3,
+      "open": true
+    },
+    {
+      "source": "Depot",
+      "target": "B",
+      "cost": 1.7,
+      "open": true
+    },
+    {
+      "source": "Depot",
+      "target": "C",
+      "cost": 2.4,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "B",
+      "target": "E",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "D",
+      "target": "Village",
+      "cost": 2.4,
+      "open": true
+    },
+    {
+      "source": "E",
+      "target": "Village",
+      "cost": 3.1,
+      "open": true
+    },
+    {
+      "source": "F",
+      "target": "Village",
+      "cost": 2.5,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "E",
+      "cost": 2.5,
+      "open": true
+    },
+    {
+      "source": "C",
+      "target": "E",
+      "cost": 2.5,
+      "open": true
+    }
+  ],
+  "requests": [
+    {
+      "destination": "Village",
+      "supply": "Bandage kit",
+      "quantity": 3,
+      "priority": 0.76
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "Depot",
+      "x": 0,
+      "y": 2,
+      "type": "Medical depot"
+    },
+    {
+      "id": "A",
+      "x": 2,
+      "y": 3,
+      "type": "Road node"
+    },
+    {
+      "id": "B",
+      "x": 2,
+      "y": 1,
+      "type": "Road node"
+    },
+    {
+      "id": "C",
+      "x": 4,
+      "y": 3,
+      "type": "Road node"
+    },
+    {
+      "id": "D",
+      "x": 4,
+      "y": 1,
+      "type": "Road node"
+    },
+    {
+      "id": "Hospital",
+      "x": 6,
+      "y": 2,
+      "type": "Hospital"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Depot",
+      "target": "A",
+      "cost": 2.4,
+      "open": true
+    },
+    {
+      "source": "Depot",
+      "target": "B",
+      "cost": 2.1,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "C",
+      "cost": 2.0,
+      "open": true
+    },
+    {
+      "source": "B",
+      "target": "D",
+      "cost": 2.2,
+      "open": true
+    },
+    {
+      "source": "C",
+      "target": "Hospital",
+      "cost": 2.7,
+      "open": true
+    },
+    {
+      "source": "D",
+      "target": "Hospital",
+      "cost": 2.1,
+      "open": true
+    },
+    {
+      "source": "A",
+      "target": "D",
+      "cost": 3.4,
+      "open": true
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "cost": 3.6,
+      "open": true
+    }
+  ],
+  "requests": [
+    {
+      "destination": "Hospital",
+      "supply": "Trauma kit",
+      "quantity": 3,
+      "priority": 1.0
+    }
+  ]
+}
